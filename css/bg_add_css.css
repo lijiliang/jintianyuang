@@ -1,0 +1,26 @@
+/* CSS Document */
+#nav li.select_hover{background:url(../bg/tocet_icon_global.png) repeat-x left -50px;}
+
+.u_imgupload_face{ display:block;width:150px; height:30px; margin-top:10px; background:url(../bg/u_upload.jpg) no-repeat center; text-align:center; color:#fff; line-height:30px; cursor:pointer;}
+.u_imgupload_face:hover{color:#fff; background:url(../bg/u_uploadh.jpg) no-repeat center; cursor:pointer;}
+
+.fenlink{margin:5px 0;margin-top:15px;margin-bottom:15px;text-align:center;}
+.fenlink a{background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D6D6D6;
+    display: inline;
+    margin: 0 3px;
+    padding: 4px 7px;
+   
+}
+.fenlink strong{
+    border: 1px solid #D6D6D6;
+    display: inline;
+    margin: 0 3px;
+    padding: 4px 7px;
+	background:#eee;}
+.fenlink a:hover{background:#f5f5f5;}
+
+
+.red  { text-align: left; color:#f00; }
+.green  { text-align: left; color:#669900; }
+

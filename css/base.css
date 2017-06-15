@@ -1,0 +1,25 @@
+/* CSS Document */
+body{font-family:"微软雅黑" Arial,Helvetica,Tahoma;font-size:12px;text-align:left;padding:0px 0px 0px 0px;margin:0px; outline:0;}
+img{border:0px;vertical-align:middle;}
+.clear{clear:both;font-size:0px;padding:0px;margin:0px;height:0px;line-height:0px;}
+div,ul,ol,li,dl,dd,form,p,h1,h2,h3,form{padding:0px 0px 0px 0px;margin:0px;border:0px;}
+a{text-decoration:none; color:#333;}
+a:hover{color:#ff6f30;}
+ul{list-style:none;}
+.active{border:1px solid #ff6810 !important; color:#333;}
+.h40{height:40px;}
+.h30{height:30px;}
+.f14{font-size:14px;}
+.t_r{text-align:right;}
+input{margin:0; padding:0; vertical-align:middle;}
+.bbr { border-right: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; }
+.btl { border-top: 1px solid #e1e1e1; border-left: 1px solid #e1e1e1; }
+.bt { border-top: 1px solid #e1e1e1; }
+.need{color:#f00 !important; }
+
+.dis{ display:none}
+.left{ float:left}
+.right{ float:right}
+.clearfix:after{content:".";display:block;height:0; clear:both; visibility:hidden;}     
+.clearfix {zoom:1;}
+

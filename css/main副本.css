@@ -1,0 +1,2488 @@
+/* CSS Document */
+
+input {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    margin: auto;
+    width: 100%;
+    height: 36px;
+    background: url(../bg/tocet_ico.png) repeat-x left top;
+    position: relative;
+    z-index: 1;
+}
+
+.topbar_main {
+    margin: auto;
+    width: 960px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.htext {
+    float: left;
+    color: #999;
+}
+
+.qlogin {
+    position: relative;
+    z-index: 100;
+    float: left;
+    margin-top: 3px;
+    height: 32px;
+    line-height: 28px;
+    padding: 0 10px;
+    color: #333;
+    font-weight: bold;
+    border-top: 1px solid #fefefe;
+}
+
+.qloginh {
+    border: 1px solid #e1e1e1;
+    border-bottom: none;
+    padding: 0 9px;
+}
+
+.qlogin_pop {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 32px;
+    z-index: 1000;
+    width: 190px;
+    height: 161px;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    background: #fff;
+    overflow: hidden;
+}
+
+.qloginyes {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    color: #333;
+    font-weight: bold;
+}
+
+.qloginyes a {
+    padding: 0 10px 0 5px;
+}
+
+.qloginvip {
+    float: left;
+    margin-top: 10px;
+    width: 14px;
+    height: 14px;
+    overflow: hidden;
+}
+
+.qloginvip span {
+    float: left;
+    width: 14px;
+    height: 14px;
+}
+
+#q_uvip0 {
+    background: url(../bg/vip.png) no-repeat left top;
+}
+
+#q_uvip1 {
+    background: url(../bg/vip.png) no-repeat left -20px;
+}
+
+#q_uvip2 {
+    background: url(../bg/vip.png) no-repeat left -40px;
+}
+
+#q_uvip3 {
+    background: url(../bg/vip.png) no-repeat left -60px;
+}
+
+#q_uvip4 {
+    background: url(../bg/vip.png) no-repeat left -80px;
+}
+
+#q_uvip5 {
+    background: url(../bg/vip.png) no-repeat left -100px;
+}
+
+.input_btn {
+    margin: auto;
+    width: 150px;
+    height: 35px;
+    background: url(../bg/loginbar.png) no-repeat left top;
+}
+
+.forget1 {
+    float: right;
+    width: 100px;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.i_login_user1 {
+    margin: 15px 20px 0 20px;
+    border: 1px solid #e1e1e1;
+    width: 130px;
+    height: 27px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -196px;
+    padding-left: 20px;
+    line-height: 27px;
+    color: #999;
+}
+
+.i_login_pas1 {
+    margin: 5px 20px 0 20px;
+    border: 1px solid #e1e1e1;
+    width: 130px;
+    height: 27px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -227px;
+    padding-left: 20px;
+    line-height: 27px;
+    color: #999;
+}
+
+.i_gamecenter {
+    float: right;
+    position: relative;
+    z-index: 100;
+    width: 85px;
+    height: 36px;
+    background: url(../bg/tocet_ico.png) no-repeat left -42px;
+    text-indent: 10px;
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.i_gamecenter_p {
+    position: absolute;
+    display: none;
+    width: 600px;
+    height: 150px;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    left: -518px;
+    top: 36px;
+    z-index: 1000;
+    background: #FFF;
+}
+
+.gnavbg {
+    display: none;
+    width: 147px;
+    position: absolute;
+    right: 0px;
+    _right: 2px;
+    top: 30px;
+    z-index: 1000;
+}
+
+.gnavbg_t {
+    display: block;
+    width: 147px;
+    height: 10px;
+    _overflow: hidden;
+}
+
+.gnavbg_b {
+    display: block;
+    width: 147px;
+    height: 10px;
+    _overflow: hidden;
+}
+
+.gnavcon {
+    width: 147px;
+    background: url(../bg/sgame_02.png) repeat-y;
+    margin: 0 10px;
+    *+margin: 2px 10px -4px;
+    _margin: 2px 10px -3px;
+    overflow: hidden;
+}
+
+.gnavcon li {
+    width: 147px;
+    margin-left: 3px;
+    display: inline;
+}
+
+.gnavcon li a {
+    display: block;
+    width: 141px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.gnavcon li.on a,
+.gnavcon li a:hover {
+    background: #ed774c;
+    color: #fff;
+}
+
+.twocode {
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    z-index: 100;
+    width: 16px;
+    height: 36px;
+    background: url(../bg/tocet_ico.png) no-repeat left -1040px;
+    cursor: pointer;
+}
+
+.twocode_p {
+    position: absolute;
+    width: 147px;
+    height: 182px;
+    display: none;
+    border-top: none;
+    left: -105px;
+    top: 36px;
+    background: url(../bg/tocetweixin.png) no-repeat;
+    z-index: 1000;
+}
+
+.txweibo {
+    float: right;
+    margin-right: 10px;
+    display: block;
+    width: 20px;
+    height: 36px;
+    background: url(../bg/tocet_ico.png) no-repeat left -368px;
+}
+
+.xlweibo {
+    float: right;
+    margin-right: 10px;
+    display: block;
+    width: 20px;
+    height: 36px;
+    background: url(../bg/tocet_ico.png) no-repeat left -318px;
+}
+
+.fav {
+    float: right;
+    margin-right: 5px;
+    position: relative;
+    z-index: 100;
+    padding: 0 10px;
+    width: 40px;
+    height: 32px;
+    margin-top: 3px;
+    line-height: 28px;
+    border-top: 1px solid #fefefe;
+}
+
+.tubiao {
+    float: right;
+    width: 10px;
+    height: 30px;
+    background: url(../bg/tocet_ico.png) no-repeat left -275px;
+}
+
+.favh .tubiao {
+    background-position: left -562px;
+}
+
+.fav_p {
+    position: absolute;
+    z-index: 1000;
+    width: 100px;
+    background: #fff;
+    height: 69px;
+    left: -1px;
+    top: 32px;
+    border: 1px solid #e1e1e1;
+    line-height: 34px;
+    border-top: none;
+    display: none;
+    text-indent: 36px;
+}
+
+.favh {
+    border: 1px solid #e1e1e1;
+    border-bottom: none;
+    padding: 0 9px;
+}
+
+.sethome {
+    width: 100px;
+    height: 34px;
+    background: url(../bg/tocet_ico.png) no-repeat left -740px;
+}
+
+.sethomeh {
+    background: #fafafa url(../bg/tocet_ico.png) no-repeat left -890px;
+}
+
+.addfav {
+    width: 100px;
+    height: 34px;
+    background: url(../bg/tocet_ico.png) no-repeat left -790px;
+    border-top: 1px solid #e1e1e1;
+}
+
+.addfavh {
+    background: #fafafa url(../bg/tocet_ico.png) no-repeat left -940px;
+}
+
+#topservice {
+    float: right;
+    display: block;
+    padding-left: 17px;
+    margin: 0 12px 0 10px;
+    background: url(../bg/tocet_ico.png) no-repeat left -220px;
+}
+
+#topserviceh {
+    background-position: left -508px;
+}
+
+#zhongzi {
+    float: right;
+    display: block;
+    padding-left: 17px;
+    margin: 0 12px 0 10px;
+    background: url(../bg/tocet_ico.png) no-repeat left -170px;
+}
+
+#zhongzih {
+    background-position: left -461px;
+}
+
+#topusercenter {
+    float: right;
+    display: block;
+    padding-left: 17px;
+    margin: 0 12px 0 10px;
+    background: url(../bg/tocet_ico.png) no-repeat left -120px;
+}
+
+#topusercenterh {
+    background-position: left -410px;
+}
+
+#d_desk {
+    float: right;
+    display: block;
+    padding-left: 17px;
+    margin: 0 12px 0 10px;
+    background: url(../bg/tocet_ico.png) no-repeat -12px -837px;
+}
+
+.logo_bar {
+    margin: auto;
+    width: 100%;
+    height: 127px;
+    background: url("../bg/ac_head_bg.png") no-repeat;
+}
+
+.logo_main {
+    margin: auto;
+    width: 960px;
+    height: 72px;
+}
+
+.logo {
+    float: left;
+    width: 300px;
+    height: 72px;
+}
+
+.logo img {
+    padding-top: 22px;
+}
+
+.head_ad {
+    float: right;
+    width: 550px;
+    height: 72px;
+}
+
+#menu {
+    margin: auto;
+    width: 100%;
+    height: 47px;
+    background: url(../bg/tocet_icon_global.png) repeat-x top left;
+    overflow: hidden;
+}
+
+#nav {
+    margin: auto;
+    width: 960px;
+    height: 47px;
+}
+
+#nav li {
+    float: left;
+    display: block;
+    min-width: 30px;
+    padding: 0 22px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+#nav li a {
+    color: #fff;
+    height: 47px;
+    display: inline-block;
+    outline: none;
+}
+
+#nav li.hover {
+    margin: 0;
+    padding: 0 22px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -50px;
+    border: 0;
+}
+
+.main {
+    margin: 20px auto 0;
+    width: 960px;
+    height: auto;
+}
+
+.main_l {
+    float: left;
+    display: inline;
+    width: 240px;
+    height: auto;
+}
+
+.main_r {
+    float: right;
+    width: 710px;
+    height: auto;
+}
+
+.i_login_main {
+    width: 240px;
+    height: 265px;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+    overflow: hidden;
+}
+
+.i_login_main h2 {
+    width: 100%;
+    height: 37px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -950px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 37px;
+    text-indent: 10px;
+    color: #666;
+}
+
+.i_login_user {
+    margin: 15px 20px 0;
+    border: 1px solid #e1e1e1;
+    width: 178px;
+    height: 27px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -196px;
+    padding-left: 22px;
+    line-height: 27px;
+    color: #999;
+}
+
+.i_login_pas {
+    margin: 5px 20px 0;
+    border: 1px solid #e1e1e1;
+    width: 178px;
+    height: 27px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -227px;
+    padding-left: 22px;
+    line-height: 27px;
+    color: #999;
+}
+
+.hov {
+    cursor: pointer !important;
+}
+
+.i_login_other {
+    margin: auto;
+    margin-top: 5px;
+    width: 200px;
+    height: 30px;
+}
+
+.forget {
+    width: 200px;
+    line-height: 30px;
+}
+
+.rempass {
+    margin-right: 15px;
+}
+
+.i_login_bnt {
+    padding-left: 20px;
+    width: 210px;
+    height: 36px;
+}
+
+.i_login_login {
+    display: inline-block;
+    float: left;
+    width: 98px;
+    height: 36px;
+    background: url(../bg/tocet_btns.png) no-repeat left top;
+}
+
+.i_login_loginh {
+    background: url(../bg/tocet_btns.png) no-repeat left -36px;
+    border: 0;
+}
+
+.i_login_reg {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    width: 98px;
+    height: 36px;
+    background: url(../bg/tocet_btns.png) no-repeat left -72px;
+}
+
+.i_login_regh {
+    background: url(../bg/tocet_btns.png) no-repeat left -108px;
+    border: 0;
+}
+
+.i_other_login {
+    margin: 10px 20px 0 20px;
+    width: 200px;
+    height: 55px;
+    border-top: 1px dashed #e1e1e1;
+}
+
+.i_other_login span {
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+}
+
+.login173 {
+    float: left;
+    width: 90px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    text-indent: 25px;
+    background: url(../bg/tocet_loginico.png) no-repeat left top;
+}
+
+.weibologin {
+    float: left;
+    width: 90px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    text-indent: 25px;
+    background: url(../bg/tocet_loginico.png) no-repeat left -22px;
+}
+
+.i_left_hot {
+    margin-top: 10px;
+    width: 240px;
+    height: 175px;
+}
+
+.l_jianhu {
+    margin-top: 10px;
+    width: 240px;
+    height: 130px;
+    background: url(../bg/tocet_jianhu.jpg) no-repeat left top;
+}
+
+.i_contact {
+    width: 170px;
+    height: 54px;
+    padding: 6px 0 0 70px;
+}
+
+.i_contact_phone {
+    width: 170px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.i_contact_online {
+    width: 170px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.i_contact_online span {
+    display: inline;
+    float: right;
+    display: block;
+    margin-right: 13px;
+}
+
+
+/*vip*/
+
+.u_vip {
+    float: left;
+    margin-top: 3px;
+    width: 123px;
+    height: 14px;
+}
+
+#uvip0 {
+    float: left;
+    width: 38px;
+    height: 14px;
+    background: url(../bg/vip.png) no-repeat -20px top;
+}
+
+#uvip1 {
+    float: left;
+    width: 38px;
+    height: 14px;
+    background: url(../bg/vip.png) no-repeat -20px -20px;
+}
+
+#uvip2 {
+    float: left;
+    width: 38px;
+    height: 14px;
+    background: url(../bg/vip.png) no-repeat -20px -40px;
+}
+
+#uvip3 {
+    float: left;
+    width: 38px;
+    height: 14px;
+    background: url(../bg/vip.png) no-repeat -20px -60px;
+}
+
+#uvip4 {
+    float: left;
+    width: 38px;
+    height: 14px;
+    background: url(../bg/vip.png) no-repeat -20px -80px;
+}
+
+#uvip5 {
+    float: left;
+    width: 38px;
+    height: 14px;
+    background: url(../bg/vip.png) no-repeat -20px -100px;
+}
+
+.u_upvip {
+    float: left;
+    margin-top: 5px;
+    width: 123px;
+    height: 16px;
+    line-height: 16px;
+}
+
+#wyjs {
+    float: left;
+    width: 16px;
+    height: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+
+/*ad*/
+
+.ymleft {
+    float: left;
+    position: fixed;
+    width: 130px;
+    height: 300px;
+    left: 5px;
+    top: 200px;
+    z-index: 99;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop+200));
+}
+
+.ymright {
+    float: right;
+    position: fixed;
+    width: 130px;
+    height: 300px;
+    right: 5px;
+    top: 200px;
+    z-index: 99;
+    _position: absolute;
+    _top: expression(eval(document.documentElement.scrollTop+200));
+}
+
+
+/** 缃《浣嶇疆 **/
+
+.backToTop {
+    display: none;
+    width: 18px;
+    line-height: 1.2;
+    padding: 5px 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    _position: absolute;
+    right: 10px;
+    bottom: 100px;
+    _bottom: "auto";
+    cursor: pointer;
+    opacity: .6;
+    filter: Alpha(opacity=60);
+}
+
+
+/** 缃《浣嶇疆 **/
+
+
+/** 娉ㄩ攢鍐呭 **/
+
+.i_login_main h2 span {
+    float: right;
+    margin-right: 13px;
+    color: #c88e4e;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.logincon {
+    padding: 13px 15px 13px;
+    height: 75px;
+    overflow: hidden;
+}
+
+.logincon .logincon_l {
+    width: 75px;
+    height: 75px;
+}
+
+.logincon .logincon_r {
+    width: 123px;
+    height: 75px;
+}
+
+.logincon_r .userxx {
+    width: 123px;
+}
+
+.logincon_r .userxx dt {
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.logincon_r .userxx dd {
+    line-height: 18px;
+}
+
+.logincon_r .userxx .ftext {
+    color: #999;
+}
+
+.logincon_r .userxx .ftext1 span {
+    color: #c88e4e;
+}
+
+.i_login_main2 p {
+    margin-left: 15px;
+}
+
+.i_login_main2 p a {
+    display: inline-block;
+    padding: 0 8px;
+    border-right: 1px solid #d6d4d5;
+}
+
+.i_login_main2 p .lasta {
+    border: none;
+}
+
+.i_login_main2 p .mail {
+    background: url(../bg/ico.png) no-repeat left center;
+    padding-left: 15px;
+}
+
+.gamecon {
+    margin: 10px 15px 0;
+    border-top: 1px dashed #ccc;
+}
+
+.gamecon h3 {
+    color: #999;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.gamecon .gamexm {
+    overflow: hidden;
+}
+
+.gamecon .gamexm li {
+    float: left;
+    margin-right: 8px;
+}
+
+.gamecon .gamexm li a {
+    float: left;
+    display: block;
+    padding: 0 8px;
+    line-height: 22px;
+    height: 22px;
+}
+
+.gamexm1 a {
+    background: url(../bg/gamepic.png) no-repeat 0 0;
+    text-indent: 15px;
+}
+
+.gamexm2 a {
+    color: #c88e4e;
+}
+
+.gamexm3 a {
+    background: url(../bg/gamepic.png) no-repeat 0 -23px;
+    text-indent: 15px;
+}
+
+
+/** 娉ㄩ攢鍐呭 **/
+
+
+/** 缇庡コ鍥剧墖 **/
+
+.showpic {
+    margin: auto;
+    width: 1080px;
+    height: auto;
+}
+
+#container {
+    text-align: center
+}
+
+#container .cell {
+    padding: 0;
+    background: #fff;
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(210, 210, 210, 0.31);
+    -webkit-box-shadow: 0 1px 2px 0 rgba(180, 180, 180, 0.5);
+}
+
+#container p {
+    height: 40px;
+    line-height: 45px;
+    text-align: left;
+    text-indent: 20px;
+}
+
+.cell img {
+    width: 250px;
+}
+
+
+/** 缇庡コ鍥剧墖 **/
+
+
+/** 鍏充簬鎴戜滑 **/
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.about_l {
+    width: 178px;
+}
+
+.about_t,
+.about_p {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.about_c {
+    width: 178px;
+    font-family: "寰蒋闆呴粦";
+}
+
+.about_c dt {
+    width: 178px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #757575;
+    border-bottom: 1px solid #ccc;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.about_c dd {
+    width: 178px;
+    text-align: center;
+    color: #757575;
+    border-bottom: 1px solid #ccc;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.about_r {
+    width: 755px;
+}
+
+.about_r h2 {
+    background: url(../bg/tico.png) no-repeat left center;
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    color: #4a4a4a;
+    padding-left: 15px;
+    margin: 10px 0;
+}
+
+.lh22 {
+    line-height: 22px;
+    font-family: "寰蒋闆呴粦";
+    color: #5f5f5f;
+}
+
+.addcon {
+    width: 755px;
+    overflow: hidden;
+}
+
+.addcon_l {
+    width: 270px;
+}
+
+.addcon_r {
+    width: 437px;
+}
+
+.addcon1 {
+    font-family: "寰蒋闆呴粦";
+    color: #5f5f5f;
+}
+
+.addcon1 dt {
+    line-height: 24px;
+}
+
+.addcon1 dd {
+    padding-left: 10px;
+}
+
+.addcon1 dd p {
+    line-height: 22px;
+}
+
+.addcon1 dd p a {
+    color: #5f5f5f;
+}
+
+.addcon1 dd p a:hover {
+    color: #ff6f30;
+    text-decoration: underline;
+}
+
+
+/** 鍏充簬鎴戜滑 **/
+
+
+/** 瀹堕暱鐩戞姢 **/
+
+.sbanner {
+    margin: 10px auto 0;
+    width: 960px;
+}
+
+.sbanner p {
+    border: 1px solid #ddd;
+}
+
+.wb {
+    border: 1px solid #ddd;
+}
+
+.about_l h3 {
+    background: url(../bg/tlbg.png) repeat-x;
+    height: 30px;
+    line-height: 30px;
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.about_l h3 span {
+    background: url(../bg/fico.png) no-repeat left center;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+.fcon {
+    width: 178px;
+    padding: 10px 0 10px 10px;
+    font-family: "寰蒋闆呴粦";
+    font-size: 12px;
+    color: #5f5f5f;
+}
+
+.fcon p {
+    line-height: 22px;
+}
+
+.fcon p span {
+    color: #ff650a;
+}
+
+.fcon1 {
+    width: 675px;
+    margin: 10px auto;
+}
+
+.fcon1 p {
+    line-height: 22px;
+    color: #747474;
+}
+
+.textc {
+    text-align: center;
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    font-weight: bold;
+    color: #ff650a !important;
+    margin-bottom: 5px;
+}
+
+
+/** 瀹堕暱鐩戞姢 **/
+
+
+/** 鑱旂郴鎴戜滑 **/
+
+.contact {
+    width: 960px;
+}
+
+.contact h3 {
+    background: url(../bg/cico1.png) no-repeat left center;
+    padding-left: 35px;
+    height: 34px;
+    line-height: 34px;
+    margin-bottom: 5px;
+}
+
+.pl30 {
+    padding-left: 30px;
+}
+
+.lxcon {
+    font-family: "寰蒋闆呴粦";
+}
+
+.lxcon dt {
+    background: url(../bg/cico2.png) no-repeat left center;
+    padding-left: 20px;
+    height: 24px;
+    line-height: 24px;
+    color: #ff6103;
+}
+
+.lxcon dd p {
+    line-height: 22px;
+}
+
+.lxcon dd p a {
+    color: #ff6103;
+}
+
+.lxcon dd p a:hover {
+    text-decoration: underline;
+}
+
+.lxcon dd p span {
+    color: #ff6103;
+}
+
+.addp {
+    border: 1px solid #ddd;
+    width: 642px;
+    height: 267px;
+    margin: 15px 0;
+}
+
+
+/** 鑱旂郴鎴戜滑 **/
+
+
+/** 缃戠珯鍦板浘 **/
+
+.map {
+    width: 960px;
+}
+
+.map h3 {
+    background: url(../bg/mappic1.png) no-repeat left center;
+    padding-left: 35px;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.mapcon {
+    margin: 10px 0;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.mapmenu {
+    margin: 10px auto;
+    width: 830px;
+    overflow: hidden;
+}
+
+.mapmenu_con {
+    float: left;
+    width: 119px;
+    margin-right: 20px;
+}
+
+.mapmenu_con dt {}
+
+.mapmenu_con dd {
+    border: 1px solid #ddd;
+    background: url(../bg/tlbg1.png) repeat-x;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mapmenu_con dd a {
+    display: block;
+}
+
+.lastd {
+    margin: 0;
+}
+
+
+/** 缃戠珯鍦板浘 **/
+
+
+/** 鐢ㄦ埛璁稿彲鍗忚 **/
+
+.userxy {
+    width: 960px;
+    margin-top: 10px;
+}
+
+.userxy h3 {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    font-family: "榛戜綋";
+    font-size: 24px;
+    color: #fc5b04;
+    width: 896px;
+    margin: 20px auto;
+}
+
+.userxy_con {
+    margin: 20px auto;
+    width: 896px;
+}
+
+.content {
+    width: 856px;
+    height: 500px;
+    padding: 20px;
+    overflow: auto;
+    background: #333;
+}
+
+.loading {
+    opacity: 0.3;
+}
+
+.textd {
+    text-indent: 2em;
+}
+
+.usercon {
+    width: 830px;
+    padding-right: 26px;
+}
+
+.usercon dt {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #e1e1e1;
+    font-size: 14px;
+}
+
+.usercon dd {
+    margin-bottom: 15px;
+}
+
+.usercon p {
+    color: #dadada;
+    line-height: 22px;
+}
+
+.pl20 {
+    padding-left: 20px;
+}
+
+
+/** 鐢ㄦ埛璁稿彲鍗忚 **/
+
+.friendlink {
+    margin: auto;
+    margin-top: 10px;
+    width: 960px;
+    height: 100px;
+    border: 1px solid #e1e1e1;
+}
+
+.friendlinktit {
+    width: 100%;
+    height: 36px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -150px;
+}
+
+.friendlinktit h2 {
+    float: left;
+    margin-left: 10px;
+    width: 400px;
+    height: 36px;
+    font-size: 14px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -400px;
+    text-indent: 10px;
+    line-height: 36px;
+}
+
+.friendlink a {
+    float: left;
+    margin-left: 10px;
+    width: 102px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -540px;
+    text-indent: 10px;
+}
+
+.footer {
+    margin: auto;
+    margin-top: 10px;
+    width: 960px;
+    height: 115px;
+    border-top: 3px solid #FF6F30;
+}
+
+.guanyu {
+    width: 960px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.guanyu a {
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.i_jianhumain {
+    width: 240px;
+    height: 60px;
+    margin-top: 10px;
+    display: block;
+}
+
+
+/** 绉垎鍟嗗煄 **/
+
+.aside_nav {
+    width: 240px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.nav_con {
+    width: 240px;
+}
+
+.nav_con li {
+    width: 240px;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav_con li a {
+    display: block;
+    width: 217px;
+    height: 38px;
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    font-weight: bold;
+    background: url(../bg/jflbg_off.jpg) no-repeat;
+    padding-left: 23px;
+}
+
+.nav_con li.on a,
+.nav_con li a:hover {
+    background: url(../bg/jflbg_on.png) no-repeat;
+    color: #fff;
+}
+
+.nav_con li a span {
+    background: url(../bg/jfico.png) no-repeat;
+    height: 38px;
+    padding-left: 29px;
+    display: block;
+}
+
+.nav_con li a span.snav1 {
+    background-position: 0 13px;
+}
+
+.nav_con li.on a span.snav1,
+.nav_con li a span.snav1:hover {
+    background-position: 0 -116px;
+}
+
+.nav_con li a span.snav2 {
+    background-position: 0 -14px;
+}
+
+.nav_con li.on a span.snav2,
+.nav_con li a span.snav2:hover {
+    background-position: 0 -143px;
+}
+
+.nav_con li a span.snav3 {
+    background-position: 0 -48px;
+}
+
+.nav_con li.on a span.snav3,
+.nav_con li a span.snav3:hover {
+    background-position: 0 -175px;
+}
+
+.nav_con li a span.snav4 {
+    background-position: 0 -76px;
+}
+
+.nav_con li.on a span.snav4,
+.nav_con li a span.snav4:hover {
+    background-position: 0 -205px;
+}
+
+.nav_con li.lastnav {
+    border: none;
+}
+
+
+/** 鍒囨崲鍐呭 **/
+
+.jftab {
+    margin: 5px 12px 0 21px;
+    width: 207px;
+}
+
+.jftab thead tr td {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 30px;
+}
+
+.jftab tbody tr td {
+    text-align: center;
+    line-height: 22px;
+    color: #ccc;
+}
+
+.jftab tbody .ftr td {
+    text-align: center;
+    line-height: 22px;
+    color: #666;
+}
+
+.jftab tbody .fbtn span {
+    background: url(../bg/btn_01.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    display: block;
+    margin-left: 15px;
+}
+
+.jftab tbody .sbtn span {
+    background: url(../bg/btn_02.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    display: block;
+    margin-left: 15px;
+}
+
+.jftab tbody .wbtn span {
+    background: url(../bg/btn_03.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    display: block;
+    margin-left: 15px;
+}
+
+.jftab tbody .tbtn span {
+    background: url(../bg/btn_04.png) no-repeat;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    display: block;
+    margin-left: 15px;
+}
+
+.jf_hotgame {
+    margin-top: 10px;
+    width: 710px;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+}
+
+.jf_hotcon {
+    padding: 5px;
+}
+
+.jf_dlcon {
+    width: 221px;
+    float: left;
+    margin: 0 15px 5px 0;
+}
+
+.jf_dlcon dt {
+    width: 221px;
+    height: 144px;
+}
+
+.jf_dlcon dd {
+    width: 211px;
+    padding: 5px;
+}
+
+.jf_dlcon dd p {
+    margin-bottom: 5px;
+}
+
+.jf_dlcon dd p a {
+    display: block;
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: url(../bg/scbtn.png) no-repeat;
+    width: 54px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.n_jf {
+    display: block;
+    float: right;
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    font-weight: bold;
+    color: #ef5a0a;
+}
+
+.dh_jf {
+    display: block;
+    float: right;
+    color: #ccc;
+    line-height: 20px;
+}
+
+.lastdl {
+    margin: 0;
+}
+
+.lbservice {
+    margin-top: 10px;
+    width: 240px;
+    border: 1px solid #e1e1e1;
+    overflow: hidden;
+}
+
+.lbtitle {
+    width: 100%;
+    height: 36px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -150px;
+}
+
+.lbtitle h2 {
+    float: left;
+    margin-left: 10px;
+    width: 700px;
+    height: 36px;
+    font-size: 14px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -400px;
+    text-indent: 10px;
+    line-height: 36px;
+}
+
+.lbmain {
+    padding: 5px 0 15px 12px;
+}
+
+.lbcon {
+    margin-top: 14px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 15px;
+    width: 214px;
+}
+
+.lbcon_l {
+    width: 112px;
+    height: 72px;
+    border: 1px solid #ccc;
+}
+
+.lbcon_r {
+    width: 90px;
+}
+
+.lbcon_r dl {
+    width: 90px;
+}
+
+.lbcon_r dl dt {
+    font-family: "寰蒋闆呴粦";
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.lbcon_r dl dd {
+    margin-bottom: 5px;
+}
+
+.lbcon_r dl dd span {
+    color: #F00;
+}
+
+.lbcon_r dl dd a {
+    display: block;
+    font-family: "寰蒋闆呴粦";
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: url(../bg/scbtn.png) no-repeat;
+    width: 54px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.lblast {
+    border: none;
+}
+
+.lb_rhead {
+    padding: 20px;
+}
+
+.rhead_l {
+    width: 258px;
+    height: 168px;
+    border: 1px solid #ccc;
+}
+
+.rhead_r {
+    width: 378px;
+}
+
+.rhead_r dl {
+    width: 378px;
+}
+
+.rhead_r dl dt {
+    font-family: "寰蒋闆呴粦";
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rhead_r dl dd {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.rhead_r dl dd.lbtn a {
+    display: block;
+    width: 93px;
+    height: 31px;
+    line-height: 31px;
+    background: url(../bg/btnbg.png) no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.rhead_r dl dd p {
+    width: 77px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.jf_input {
+    width: 47px;
+    height: 23px;
+    background: url(../bg/inputbg.png) no-repeat;
+    margin: 0 14px;
+    text-align: center;
+}
+
+.pbtn,
+.nbtn {
+    position: absolute;
+    top: 0;
+}
+
+.pbtn a,
+.nbtn a {
+    display: block;
+    width: 14px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background: url(../bg/pbtn_off.png) no-repeat;
+    color: #ccc;
+}
+
+.pbtn a:hover,
+.nbtn a:hover,
+.onbtn a {
+    display: block;
+    width: 14px;
+    height: 25px;
+    background: url(../bg/pbtn_on.png) no-repeat;
+    color: #333;
+}
+
+.pbtn {
+    left: 0;
+    border-right: 1px solid #ccc;
+}
+
+.nbtn {
+    right: 0;
+    border-left: 1px solid #ccc;
+}
+
+.ftext {
+    font-size: 14px;
+    font-family: "寰蒋闆呴粦";
+    font-weight: bold;
+}
+
+.ccolor {
+    color: #ff650a;
+}
+
+.topl {
+    border-top: 1px solid #e1e1e1;
+}
+
+.lb_foot,
+.rw_con {
+    padding: 25px;
+}
+
+.rw_con p {
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+.rwpic {
+    background: url(../bg/rwpic.png) no-repeat left center;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 45px;
+}
+
+.hscolor {
+    color: #666;
+}
+
+.lb_foot p {
+    color: #8f8f8f;
+    font-size: 14px;
+    font-family: "寰蒋闆呴粦";
+    font-weight: bold;
+    width: 390px;
+    height: 31px;
+    line-height: 31px;
+    background: url(../bg/bd.png) no-repeat left center;
+    padding-left: 15px;
+    margin: 15px;
+}
+
+.lb_foot span {
+    float: right;
+}
+
+.rw_con p a,
+.lb_foot span a {
+    display: block;
+    width: 93px;
+    height: 31px;
+    line-height: 31px;
+    background: url(../bg/btnbg.png) no-repeat;
+    color: #fff;
+    text-align: center;
+}
+
+.lb_foot dl {
+    width: 667px;
+    color: #666;
+}
+
+.lb_foot dl dt {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.lb_foot dl dd {
+    text-indent: 2em;
+    line-height: 22px;
+}
+
+
+/** 绉垎鍟嗗煄 **/
+
+.friendlink {
+    margin: auto;
+    margin-top: 10px;
+    width: 960px;
+    height: 100px;
+    border: 1px solid #e1e1e1;
+}
+
+.friendlinktit {
+    width: 100%;
+    height: 36px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -150px;
+}
+
+.friendlinktit h2 {
+    float: left;
+    margin-left: 10px;
+    width: 400px;
+    height: 36px;
+    font-size: 14px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -400px;
+    text-indent: 10px;
+    line-height: 36px;
+}
+
+.friendlink a {
+    float: left;
+    margin-left: 10px;
+    width: 102px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -540px;
+    text-indent: 10px;
+}
+
+.footer {
+    margin: auto;
+    margin-top: 10px;
+    width: 960px;
+    height: 115px;
+    border-top: 3px solid #FF6F30;
+}
+
+.guanyu {
+    width: 960px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.guanyu a {
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.i_jianhumain {
+    width: 240px;
+    height: 60px;
+    margin-top: 10px;
+    display: block;
+}
+
+.newservice {
+    margin-top: 10px;
+    width: 240px;
+    height: 260px;
+    border: 1px solid #e1e1e1;
+    border-top: none;
+}
+
+.newservice h2 {
+    width: 240px;
+    height: 37px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -99px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 37px;
+    color: #666;
+}
+
+.newservice h2 span {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 119px;
+    height: 37px;
+    text-align: center;
+    font-weight: bold;
+    border-top: none;
+}
+
+.newservice h2 span.hover {
+    width: 119px !important;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -950px;
+    cursor: pointer;
+}
+
+.newservice_main {
+    width: 240px;
+    height: 220px;
+}
+
+.servicelist {
+    width: 238px;
+    height: 220px;
+}
+
+.servicelist dl {
+    width: 238px;
+    height: 31px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.servicelist dl dd {
+    float: left;
+    width: 78.65px;
+    height: 30px;
+}
+
+.i_newgames {
+    width: 240px;
+    height: 220px;
+}
+
+.i_newgames dl {
+    margin: 10px 10px 5px 10px;
+    width: 220px;
+    height: 60px;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.i_newgames dl dt {
+    float: left;
+    width: 52px;
+    height: 52px;
+    border: 2px solid #fff;
+}
+
+.i_newgames dl dd {
+    float: right;
+    width: 160px;
+    height: 18px;
+    line-height: 18px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.i_newgames dl dd span {
+    float: right;
+    text-align: right;
+    color: #666;
+}
+
+.i_newgames_bnt {
+    float: left;
+    display: block;
+    width: 55px;
+    height: 18px;
+    background: url(../bg/tocet_btns.png) no-repeat left -144px;
+}
+
+.i_newgames_bnt.hover {
+    background: url(../bg/tocet_btns.png) no-repeat left -162px;
+}
+
+.suctd {
+    border-left: none;
+}
+
+.notopboder {
+    border-top: none;
+}
+
+.odd {
+    background: #f9f9f9;
+}
+
+.even {
+    background: #ffffff;
+}
+
+#slide {
+    width: 710px;
+    height: 265px;
+    overflow: hidden;
+    position: relative;
+}
+
+#imgli ul {
+    width: 7000px;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+#slideon {
+    width: 710px;
+    height: 30px;
+    position: absolute;
+    top: 220px;
+}
+
+#slideon ul {
+    position: absolute;
+    left: 580px;
+}
+
+#slideon ul li {
+    background: #b4916d;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    margin: 10px 4px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#slideon ul li.on {
+    background: #000;
+}
+
+#slideon2 {
+    height: 80px;
+    width: 710px;
+    position: absolute;
+    top: 150px;
+    display: none;
+}
+
+#slideon2 ul li {
+    height: 80px;
+    width: 50px;
+    cursor: pointer;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.hotgame {
+    margin-top: 10px;
+    width: 710px;
+    height: 185px;
+    border: 1px solid #e1e1e1;
+}
+
+.hotgametit {
+    width: 100%;
+    height: 36px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -150px;
+}
+
+.hotgametit h2 {
+    float: left;
+    margin-left: 10px;
+    width: 400px;
+    height: 36px;
+    font-size: 14px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -400px;
+    text-indent: 10px;
+    line-height: 36px;
+}
+
+.hotgameli {
+    float: left;
+    margin: 8px 0 0 8px;
+    width: 226px;
+    height: 128px;
+    position: relative;
+    display: inline;
+}
+
+.hotgamedetails {
+    position: absolute;
+    display: none;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 226px;
+    height: 138px;
+    background: url(../bg/hotgame_bg.png) no-repeat;
+}
+
+.hotgamedetails_main {
+    position: absolute;
+    display: none;
+    left: 5px;
+    top: 5px;
+    width: 216px;
+    height: 118px;
+    background: #fff;
+    z-index: 99;
+}
+
+.hotgamedetails_main h2 {
+    width: 216px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    border-bottom: 1px solid #e1e1e1;
+    text-indent: 10px;
+}
+
+.hotgamedetails_main h2 span {
+    float: right;
+    font-weight: normal;
+    font-size: 12px;
+    color: #666;
+    margin-right: 10px;
+}
+
+.hotgamedetails_main p {
+    padding: 10px;
+    line-height: 18px;
+    color: #666;
+}
+
+.hotgamedetails_bnt {
+    width: 216px;
+    height: 32px;
+}
+
+.hotgamedetails_enter {
+    float: left;
+    width: 108px;
+    height: 32px;
+    background: url(../bg/tocet_hm_btns.png) no-repeat left top;
+}
+
+.hotgamedetails_start {
+    float: left;
+    width: 108px;
+    height: 32px;
+    background: url(../bg/tocet_hm_btns.png) no-repeat right top;
+}
+
+.hotgamedetails_enterh {
+    float: left;
+    width: 108px;
+    height: 32px;
+    background: url(../bg/tocet_hm_btns.png) no-repeat left -32px;
+}
+
+.hotgamedetails_starth {
+    float: left;
+    width: 108px;
+    height: 32px;
+    background: url(../bg/tocet_hm_btns.png) no-repeat right -32px;
+}
+
+.newgame {
+    margin-top: 10px;
+    width: 710px;
+    height: 385px;
+    border: 1px solid #e1e1e1;
+}
+
+.newgametit {
+    width: 100%;
+    height: 36px;
+    background: url(../bg/tocet_icon_global.png) repeat-x left -150px;
+}
+
+.newgametit h2 {
+    float: left;
+    margin-left: 10px;
+    width: 400px;
+    height: 36px;
+    font-size: 14px;
+    background: url(../bg/tocet_icon_global.png) no-repeat left -400px;
+    text-indent: 10px;
+    line-height: 36px;
+}
+
+.newgameli {
+    float: left;
+    margin: 10px 0 0 10px;
+    width: 340px;
+    height: 100px;
+}
+
+.gameimg {
+    float: left;
+    width: 110px;
+    height: 100px;
+}
+
+.newgametitle {
+    float: left;
+    width: 210px;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.newgame_info {
+    float: left;
+    margin-left: 20px;
+    width: 210px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.newgame_info span {
+    color: #999;
+}
+
+.newgame_bnt {
+    float: left;
+    width: 210px;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.newgame_gw {
+    float: left;
+    margin-top: 4px;
+    width: 61px;
+    height: 26px;
+    line-height: 26px;
+    background: url(../bg/tocet_btns.png) no-repeat left -182px;
+    text-align: center;
+}
+
+.newgame_start {
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 76px;
+    height: 26px;
+    line-height: 26px;
+    background: url(../bg/tocet_btns.png) no-repeat left -208px;
+    text-align: center;
+    color: #fff;
+}
+
+.newgame_start:hover {
+    color: #fff;
+}
+
+.dlfocus {
+    position: fixed;
+    top: 10px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.dlfocus_l {
+    position: absolute;
+    left: 10px;
+    top: 250px;
+    width: 50px;
+    height: 70px;
+}
+
+.dlfocus_r {
+    position: absolute;
+    right: 60px;
+    top: 250px;
+    width: 50px;
+    height: 70px;
+}
+
+
+/** 鍏憡淇℃伅 **/
+
+.hnew {
+    width: 958px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../bg/hnewl.png) repeat-x;
+}
+
+.hnew span {
+    float: right;
+    margin-right: 10px;
+    color: #333;
+}
+
+.wyfont {
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.hnew span a {
+    width: 54px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 5px;
+    color: #fff;
+    display: inline-block;
+    background: url(../bg/scbtn.png) no-repeat;
+}
+
+.hnew_n {
+    width: 600px;
+    height: 33px;
+    line-height: 33px;
+    margin-left: 20px;
+    background: url(../bg/ggico.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+.hnew_t {
+    color: #666;
+}
+
+
+/** 鍏憡淇℃伅 **/
+
+.mod-top-nav-wr {
+    height: 58px;
+    background: url(../bg/ac_global.png) 0 -77px repeat-x;
+}
+
+.mod-top-nav-list {
+    width: 960px;
+    margin: 0 auto;
+    height: 54px;
+}
+
+.mod-top-nav-list li {
+    float: left;
+    height: 54px;
+    margin-left: -15px;
+    background: url(../bg/ac_global.png) right -403px no-repeat;
+}
+
+.mod-top-nav-list .mod-top-nav-rank {
+    background: none!important;
+}
+
+.mod-top-nav-list a {
+    display: block;
+    padding-left: 24px;
+}
+
+.mod-top-nav-list a span {
+    display: block;
+    padding: 0 36px 0 24px;
+    line-height: 54px;
+    font-family: "寰蒋闆呴粦";
+    font-size: 18px;
+    text-shadow: 0 1px 1px #b95400;
+    color: #fff;
+}
+
+.mod-top-nav-list .actives a,
+.mod-top-nav-list a:hover {
+    background: url(../bg/ac_global.png) -30px -140px no-repeat;
+}
+
+.mod-top-nav-list .actives span,
+.mod-top-nav-list a:hover span {
+    background: url(../bg/ac_global.png) right -140px no-repeat;
+}
+
+.mod-top-nav-tool {
+    width: 166px;
+    margin-top: 12px;
+}
+
+.mod-top-nav-upload,
+.mod-top-nav-replenish {
+    width: 67px;
+    height: 30px;
+    line-height: 30px;
+    color: #7b380e;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #d87321;
+    background: -moz-linear-gradient(top, #ffe9c2, #fad591);
+    background: -webkit-linear-gradient(top, #ffe9c2, #fad591);
+    background: -o-linear-gradient(top, #ffe9c2, #fad591);
+    background: -ms-linear-gradient(top, #ffe9c2, #fad591);
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.5) inset;
+    background: url(../bg/ac_btn_bg.png) 0 -1080px\9;
+    border: none\9;
+}
+
+.mod-top-nav-upload:hover,
+.mod-top-nav-replenish:hover {
+    background: -moz-linear-gradient(top, #fff5e5, #fee9c4);
+    background: -webkit-linear-gradient(top, #fff5e5, #fee9c4);
+    background: -o-linear-gradient(top, #fff5e5, #fee9c4);
+    background: -ms-linear-gradient(top, #fff5e5, #fee9c4);
+    background: url(../bg/ac_btn_bg.png) 0 -1110px\9;
+}
+
+.mod-top-nav-upload:active,
+.mod-top-nav-replenish:active {
+    background: -moz-linear-gradient(top, #ffdca0, #ffefd3);
+    background: -webkit-linear-gradient(top, #ffdca0, #ffefd3);
+    background: -o-linear-gradient(top, #ffdca0, #ffefd3);
+    background: -ms-linear-gradient(top, #ffdca0, #ffefd3);
+    background: url(../bg/ac_btn_bg.png) 0 -1140px\9;
+}
+
+.mod-top-nav-replenish i,
+.mod-top-nav-upload i {
+    width: 13px;
+    height: 13px;
+    margin: 9px 5px 0 10px;
+}
+
+.mod-top-nav-upload i {
+    background: url(../bg/ac_global.png) -211px -216px no-repeat;
+}
+
+.mod-top-nav-replenish i {
+    background: url(../bg/ac_global.png) -210px -201px no-repeat;
+}
+
+.mod-top-nav-upload {
+    margin-right: 10px;
+}
+
+.mod-top-search {
+    float: right;
+    width: 429px;
+    position: relative;
+    height: 44px;
+    padding: 4px;
+    margin: 28px 75px 5px 0;
+    background-color: #ece8e6;
+    z-index: 10;
+}
+
+.mod-search-input-wr {
+    position: relative;
+    width: 346px;
+    height: 42px;
+    border: 1px solid #dcd8d4;
+    border-right: none;
+    background-color: #fff;
+}
+
+.mod-search-label,
+.mod-search-input {
+    position: absolute;
+}
+
+.mod-search-label {
+    left: 8px;
+    line-height: 42px;
+    color: #999;
+    font-family: "宋体";
+    font-size: 12px;
+    z-index: 10;
+}
+
+.mod-search-input {
+    z-index: 12;
+    width: 336px;
+    height: 20px;
+    line-height: 20px;
+    padding: 11px 5px;
+    background: none;
+    border: none;
+    font-size: 14px;
+}
+
+.mod-search-submit {
+    width: 74px;
+    height: 44px;
+    border: 0;
+    border-radius: 0 2px 2px 0;
+    background-image: url(../bg/ac_global.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-indent: -9999em;
+}
+
+.mod-search-submit {
+    background-position: 0 -605px;
+}
+
+.mod-search-submit:hover {
+    background-position: -76px -651px;
+}
+
+.mod-search-submit:active {
+    background-position: -152px -651px;
+}
+
+.a-left {
+    float: left;
+}
