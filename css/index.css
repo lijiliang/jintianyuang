@@ -52,7 +52,7 @@ li{float:left;list-style:none;}
 .hotgamedetails_enterh{float:left; width:108px; height:32px; background:url(../bg/tocet_hm_btns.png) no-repeat left -32px;}
 .hotgamedetails_starth{float:left; width:108px; height:32px; background:url(../bg/tocet_hm_btns.png) no-repeat right -32px;}
 
-.newgame{ margin-top:10px;width:710px; height:385px; border:1px solid #e1e1e1;}
+.newgame{ margin-top:10px;width:710px; height:450px; border:1px solid #e1e1e1;}
 .newgametit{width:100%; height:36px; background:url(../bg/tocet_icon_global.png) repeat-x left -150px;}
 .newgametit h2{float:left; margin-left:10px; width:400px; height:36px;font-size:14px; background:url(../bg/tocet_icon_global.png) no-repeat left -400px; text-indent:10px; line-height:36px;}
 .newgameli{ float:left;margin:10px 0 0 10px; width:340px; height:100px;}
@@ -87,12 +87,12 @@ li{float:left;list-style:none;}
 .game_main_tit li.hover{ height:31px;background:url(../bg/tocet_tab.gif) no-repeat left -307px;}
 .game_main_col{width:700px;padding-top:10px; border:1px solid #e1e1e1; border-top:0;}
 
-.gameli_main{margin-top:10px;width:680px; height:200px; margin-left:10px; overflow:hidden; }
+.gameli_main{margin-top:10px;width:680px; height:500px; margin-left:10px; overflow:hidden; }
 .gameli_main_pic{float:left; width:120px; height:200px;}
 .gamecenter_info{float:right; width:550px; height:200px;}
-.gameli_main h2{width:550px; height:30px; line-height:30px; font-size:14px; border-bottom:1px dashed #e1e1e1;}
+.gameli_main h2{width:550px; height:50px; line-height:50px; font-size:28px; border-bottom:1px dashed #e1e1e1;}
 
-.gamecenter_detail{padding:10px; line-height:20px; color:#666;border-bottom:1px dashed #e1e1e1;}
+.gamecenter_detail{padding:10px; line-height:1.6; color:#666;border-bottom:1px dashed #e1e1e1; font-size: 28px;}
 .gameli_bnt{ margin-top:10px;width:550px; height:32px; line-height:32px;}
 .gameli_gw{float:left; display:block; width:62px; height:32px; background:url(../bg/tocet_btn_01.gif) no-repeat left top; text-align:center;}
 .gameli_lt{float:left;  display:block;margin-left:10px; width:62px; height:32px; background:url(../bg/tocet_btn_01.gif) no-repeat left top; text-align:center;}
@@ -122,7 +122,7 @@ li{float:left;list-style:none;}
 }
 .ct-recommend-left .ct-rec-title a {
 	font-size:18px;
-	color: #fff;	
+	color: #fff;
 }
 .ct-rec-intro {
 	padding:10px;
@@ -180,7 +180,7 @@ display: block;
 
 /*用户中心*/
 .user_main_l{ float:left;width:710px; height:auto;}
-.user_main_r{float:right; width:240px; height:430px;}
+.user_main_r{float:right; width:240px;}
 
 .user_hot_game{float:left; margin-top:40px; width:692px; height:100px;}
 #u_goleft{float:left; width:20px; height:100px; background:url(../bg/tocet_usercenter.gif) no-repeat left top; cursor:pointer;}
